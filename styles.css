@@ -3037,3 +3037,24 @@ main ul li::before {
         padding: 0 1rem 1.25rem;
     }
 }
+
+/* ===== Page Header Styles for All Pages ===== */
+.about-header {
+    background: linear-gradient(135deg, rgba(10, 37, 64, 0.92), rgba(27, 42, 65, 0.88)), 
+                url('about-header.jpg') center/cover;
+}
+
+.process-header {
+    background: linear-gradient(135deg, rgba(10, 37, 64, 0.92), rgba(27, 42, 65, 0.88)), 
+                url('process-header.jpg') center/cover;
+}
+
+.services-header {
+    background: linear-gradient(135deg, rgba(10, 37, 64, 0.92), rgba(27, 42, 65, 0.88)), 
+                url('services-header.jpg') center/cover;
+}
+
+.caregivers-header {
+    background: linear-gradient(135deg, rgba(10, 37, 64, 0.92), rgba(27, 42, 65, 0.88)), 
+                url('caregivers-header.jpg') center/cover;
+}
