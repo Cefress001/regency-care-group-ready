@@ -179,7 +179,7 @@ em {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 .logo {
@@ -189,7 +189,7 @@ em {
 }
 
 .logo-img {
-    height: 250px;
+    height: 120px;
     width: auto;
     transition: transform 0.3s ease;
 }
@@ -262,12 +262,14 @@ em {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 8rem 0 6rem;
-    margin-top: 80px;
+    padding: 10rem 0 8rem;
+    margin-top: 70px;
 }
 
 .hero-team {
     background-image: url('team-photo.png');
+    background-size: 110%;
+    background-position: center 30%;
 }
 
 .hero-overlay {
@@ -741,7 +743,7 @@ em {
 }
 
 .footer-logo-img {
-    height: 250px;
+    height: 120px;
     width: auto;
 }
 
@@ -1325,11 +1327,11 @@ a:focus-visible {
 
 /* ===== Page Header ===== */
 .page-header {
-    margin-top: 100px;
-    padding-top: 10rem;
+    margin-top: 70px;
+    padding-top: 8rem;
     background-color: var(--primary);
     color: white;
-    padding-bottom: 4rem;
+    padding-bottom: 8rem;
     text-align: center;
     position: relative;
 }
