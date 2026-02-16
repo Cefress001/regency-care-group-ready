@@ -2733,7 +2733,9 @@ main ul li::before {
 
 /* ===== Resources Page Improvements ===== */
 .resources-header {
-    background: url('resources-header.jpg') center/cover;
+    background-image: url('resources-header.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .content-section {
@@ -3039,17 +3041,25 @@ main ul li::before {
 
 /* ===== Page Header Styles for All Pages ===== */
 .about-header {
-    background: url('about-header.jpg') center/cover;
+    background-image: url('about-header.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .process-header {
-    background: url('process-header.jpg') center/cover;
+    background-image: url('process-header.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .services-header {
-    background: url('services-header.jpg') center/cover;
+    background-image: url('services-header.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .caregivers-header {
-    background: url('caregivers-header.jpg') center/cover;
+    background-image: url('caregivers-header.jpg');
+    background-position: center;
+    background-size: cover;
 }
