@@ -273,17 +273,6 @@ em {
     background-position: center 30%;
 }
 
-@media (max-width: 768px) {
-
-  .hero {
-    height: 100vh; /* Let it scale to screen height */
-    background-size: contain; /* Prevent aggressive cropping */
-    background-position: top center; /* Show top of image */
-    background-repeat: no-repeat;
-  }
-
-}
-
 .hero-overlay {
     position: absolute;
     top: 0;
@@ -882,6 +871,18 @@ em {
     .footer-container {
         grid-template-columns: 1fr;
     }
+}
+
+@media (max-width: 768px) {
+
+  .hero {
+    background-attachment: scroll; /* critical fix */
+    background-size: cover;        /* keep full-bleed look */
+    background-position: center center;
+    min-height: 80vh;              /* reduce vertical size */
+    padding: 6rem 0 4rem;          /* reduce padding */
+  }
+
 }
 
 @media (max-width: 768px) {
