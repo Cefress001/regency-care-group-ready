@@ -275,8 +275,9 @@ em {
 
 @media (max-width: 768px){
   .hero-team{
-    min-height: 55vh;   /* try 45–65vh */
-    background-position: center 20%;
+    background-size: contain;
+    background-position: center;
+    background-color: #000; /* or your page background */
   }
 }
 
